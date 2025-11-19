@@ -4,7 +4,7 @@ import L from 'leaflet';
 import { MapView } from "./ContainerMapStyles";
 
 import { useSelector } from "react-redux";
-import { RootState } from "../store/store";
+import { RootState } from "../../store/store";
 import { useEffect } from 'react';
 
 // Corrige o problema do ícone padrão não aparecer:

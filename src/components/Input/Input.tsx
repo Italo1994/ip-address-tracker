@@ -15,6 +15,7 @@ export function Input() {
         if(!ip) return
 
         setSearchIp(ip)
+        console.log(searchIp)
         
         try {
             const res = await axios.get(
